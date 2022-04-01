@@ -8,3 +8,10 @@ Div_event.forEach((element) =>
         Area_copied.insertAdjacentHTML("beforeend", cloneMaterial);
     })
 );
+
+/* Delete button*/
+const button_reset = document.querySelector("button");
+
+button_reset.addEventListener("click", () => {
+    Area_copied.innerHTML = "";
+    });
