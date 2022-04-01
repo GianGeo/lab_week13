@@ -1,0 +1,32 @@
+* {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: red;
+  text-align: center;
+}
+
+.originals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  background-color: tomato;
+}
+
+.original-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.copies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  background-color: tomato;
+}
